@@ -18,12 +18,28 @@
 .main__for {
 }
 
+.header-logo {
+  width: 53px;
+  height: 52px;
+}
+
+.block-logo {
+  margin-bottom: 10px;
+}
+
 .main__text .tsyfry {
   display: block;
   font-size: 48px;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 3.84px;
+}
+
+.burger-menu {
+  width: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+  height: 11px;
 }
 
 .main__text {
@@ -260,6 +276,8 @@
   text-decoration: none;
 }
 
+
+
 .footer__form-2 {
   display: flex;
   gap: 124px;
@@ -279,6 +297,52 @@
   line-height: 184.682%;
   letter-spacing: 1.26px;
   text-decoration: none;
+}
+
+.section__form {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.form-title {
+  font-size: 36px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.section__form-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.section__form-btn:hover {
+  background-color: #0056b3;
 }
 
 @media (max-width: 1730px) {
@@ -312,6 +376,12 @@
   }
 }
 @media (max-width: 715px) {
+  .form-title {
+    font-size: 20px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+  
   .footer__f {
     margin-right: 51px;
   }
